@@ -1,4 +1,7 @@
 <clickhouse>
     <send_events_to_server>0</send_events_to_server>
-    <send_crash_reports>0</send_crash_reports>
+    <send_crash_reports>
+        <enabled>false</enabled>
+        <send_logical_errors>false</send_logical_errors>
+    </send_crash_reports>
 </clickhouse>
